@@ -9,11 +9,6 @@
 	margin: 0px auto;
 }
 
-.header, .body-top, .body-bottom {
-	outline: 1px dashed red;
-	min-height: 20px;
-}
-
 div.header {
 	background-color: silver;
 	min-height: 100px;
@@ -54,7 +49,7 @@ div.header {
 		}
 
 div.body-top {
-	margin: 20px;
+	margin: 20px 20px 0px 20px;
 }
 
 	.body-top img {
@@ -75,6 +70,7 @@ div.body-top {
 			font-size: 14px;
 			display: inline-block;
 			width: 100%;
+			padding: 5px 0px;
 			vertical-align: top;
 			background-color: gold;
 		}
@@ -93,5 +89,91 @@ div.body-top {
 			background-color: transparent;
 		}
 
-		
+div.body-mid {
+	margin: 5px 20px
+}
 
+	div.body-mid img {
+	width: 60px;
+}
+
+	.body-mid p {
+		color: #ddbb88;
+		display: inline-block;
+		font-size: 14px;
+	}
+
+div.body-bottom {
+	margin: 0px 20px;
+	width: 930px;
+}
+
+	div.columns {
+		margin: 0px;
+		padding: 0px;
+		padding-bottom: 10px;
+		width: 220px;
+		display: inline-block;
+		background-color: #ddbb88;
+	}
+
+		.columns {
+			margin-left: 0px;
+		}
+
+		.columns h2 {
+			width: 100%;
+		}
+
+		.columns img {
+			width: 100%;
+		}
+	
+		.columns p {
+			background-color: transparent;
+			font-size: 14px;
+			padding: 10px;
+		}
+
+		.columns button {
+			background-color: gold;
+			margin-left: 80px;
+			padding: 1px 10px;
+			display: block;
+		}
+
+div.columns1 {
+		margin-left: 11px;
+		padding: 0px;
+		padding-bottom: 10px;
+		width: 220px;
+		display: inline-block;
+		background-color: #ddbb88;
+	}
+
+		.columns1{
+			margin-left: 0px;
+		}
+
+		.columns1 h2 {
+			width: 100%;
+		}
+
+		.columns1 img {
+			width: 100%;
+		}
+	
+		.columns1 p {
+			background-color: transparent;
+			font-size: 14px;
+			padding: 10px;
+		}
+
+		.columns1 button {
+			background-color: gold;
+			margin-left: 80px;
+			padding: 1px 10px;
+			display: block;
+		}
+
+		
