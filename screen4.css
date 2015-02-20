@@ -95,6 +95,7 @@ div.body-mid {
 
 	div.body-mid img {
 	width: 60px;
+	border: 1px solid blue;
 }
 
 	.body-mid p {
